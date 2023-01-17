@@ -1,0 +1,1 @@
+SELECT artist, COUNT(id) FROM song GROUP BY artist ORDER BY COUNT(id) DESC;
